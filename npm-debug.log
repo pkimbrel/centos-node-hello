@@ -1,0 +1,172 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'docker' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'docker', null ]
+5 verbose cache add spec docker
+6 silly cache add parsed spec { raw: 'docker',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'docker',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed docker@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'docker', range: '*', hasData: false }
+11 silly mapToRegistry name docker
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/docker
+15 verbose addNameRange registry:https://registry.npmjs.org/docker not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/docker
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 8:00:58 PM
+19 verbose request id 757910f311639302
+20 http request GET https://registry.npmjs.org/docker
+21 http 200 https://registry.npmjs.org/docker
+22 silly get cb [ 200,
+22 silly get   { date: 'Fri, 27 Feb 2015 02:00:59 GMT',
+22 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"AVRJAMR6KSYMULZUGND2DGIPN"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '33115',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     'x-served-by': 'cache-dfw1828-DFW',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1425002459.354759,VS0,VE311',
+22 silly get     vary: 'Accept',
+22 silly get     'keep-alive': 'timeout=10, max=50',
+22 silly get     connection: 'Keep-Alive' } ]
+23 verbose get saving docker to /Users/pkimbrel/.npm/registry.npmjs.org/docker/.cache.json
+24 silly addNameRange number 2 { name: 'docker', range: '*', hasData: true }
+25 silly addNameRange versions [ 'docker',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.0.4',
+25 silly addNameRange     '0.0.5',
+25 silly addNameRange     '0.0.6',
+25 silly addNameRange     '0.0.7',
+25 silly addNameRange     '0.0.8',
+25 silly addNameRange     '0.0.9',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.1.8',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.2.3',
+25 silly addNameRange     '0.2.4',
+25 silly addNameRange     '0.2.5',
+25 silly addNameRange     '0.2.6',
+25 silly addNameRange     '0.2.7',
+25 silly addNameRange     '0.2.8',
+25 silly addNameRange     '0.2.10',
+25 silly addNameRange     '0.2.11',
+25 silly addNameRange     '0.2.12',
+25 silly addNameRange     '0.2.13',
+25 silly addNameRange     '0.2.14' ] ]
+26 verbose addNamed docker@0.2.14
+27 silly addNamed semver.valid 0.2.14
+28 silly addNamed semver.validRange 0.2.14
+29 silly mapToRegistry name docker
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/docker
+33 verbose addRemoteTarball https://registry.npmjs.org/docker/-/docker-0.2.14.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/docker/-/docker-0.2.14.tgz',
+34 verbose addRemoteTarball   'e8e9528a4673eab5b5a56f02d05883f6787f6426' ]
+35 info retry fetch attempt 1 at 8:00:59 PM
+36 info attempt registry request try #1 at 8:00:59 PM
+37 http fetch GET https://registry.npmjs.org/docker/-/docker-0.2.14.tgz
+38 http fetch 200 https://registry.npmjs.org/docker/-/docker-0.2.14.tgz
+39 silly fetchAndShaCheck shasum e8e9528a4673eab5b5a56f02d05883f6787f6426
+40 verbose addTmpTarball /var/folders/z5/hxc7f0cj5cb5hx5q9l9xw4qc0000gn/T/npm-3220-2f15f15c/registry.npmjs.org/docker/-/docker-0.2.14.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for docker@0.2.14
+42 silly cache afterAdd docker@0.2.14
+43 verbose afterAdd /Users/pkimbrel/.npm/docker/0.2.14/package/package.json not in flight; writing
+44 verbose afterAdd /Users/pkimbrel/.npm/docker/0.2.14/package/package.json written
+45 silly install resolved [ { author: { name: 'JT', email: 'jt@gosquared.com' },
+45 silly install resolved     name: 'docker',
+45 silly install resolved     version: '0.2.14',
+45 silly install resolved     dependencies:
+45 silly install resolved      { mkdirp: '0.3.2',
+45 silly install resolved        commander: '0.5.2',
+45 silly install resolved        watchr: '~2.3.3',
+45 silly install resolved        'pygmentize-bundled': '~2.1.0' },
+45 silly install resolved     bin: { docker: './docker' },
+45 silly install resolved     engines: { node: '>=0.4.0' },
+45 silly install resolved     description: 'Static documentation generator based on docco',
+45 silly install resolved     homepage: 'http://jbt.github.com/docker',
+45 silly install resolved     repository: { type: 'git', url: 'git://github.com/jbt/docker.git' },
+45 silly install resolved     main: './src/docker.js',
+45 silly install resolved     bugs: { url: 'https://github.com/jbt/docker/issues' },
+45 silly install resolved     _id: 'docker@0.2.14',
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: 'e8e9528a4673eab5b5a56f02d05883f6787f6426',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/docker/-/docker-0.2.14.tgz' },
+45 silly install resolved     _from: 'docker@*',
+45 silly install resolved     _npmVersion: '1.4.3',
+45 silly install resolved     _npmUser: { name: 'jt', email: 'jt@gosquared.com' },
+45 silly install resolved     maintainers: [ [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _shasum: 'e8e9528a4673eab5b5a56f02d05883f6787f6426',
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/docker/-/docker-0.2.14.tgz' } ]
+46 info install docker@0.2.14 into /usr/local/lib
+47 info installOne docker@0.2.14
+48 verbose installOne of docker to /usr/local/lib not in flight; installing
+49 verbose lock using /Users/pkimbrel/.npm/_locks/docker-716a102c8ea14ef0.lock for /usr/local/lib/node_modules/docker
+50 silly install write writing docker 0.2.14 to /usr/local/lib/node_modules/docker
+51 silly cache addNamed cb docker@0.2.14
+52 verbose unbuild lib/node_modules/docker
+53 verbose gentlyRm vacuuming /usr/local/lib/node_modules/docker
+54 verbose tar unpack /Users/pkimbrel/.npm/docker/0.2.14/package.tgz
+55 verbose tar unpacking to /usr/local/lib/node_modules/docker
+56 verbose gentlyRm vacuuming /usr/local/lib/node_modules/docker
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 error tar.unpack untar error /Users/pkimbrel/.npm/docker/0.2.14/package.tgz
+59 verbose unlock done using /Users/pkimbrel/.npm/_locks/docker-716a102c8ea14ef0.lock for /usr/local/lib/node_modules/docker
+60 verbose fstream_path /usr/local/lib/node_modules/docker
+61 verbose fstream_type Directory
+62 verbose fstream_class DirWriter
+63 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/docker'
+63 verbose stack     at Error (native)
+64 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+65 verbose cwd /Users/pkimbrel/Local/src/docker-centos-hello
+66 error Darwin 14.1.0
+67 error argv "node" "/usr/local/bin/npm" "install" "-g" "docker"
+68 error node v0.12.0
+69 error npm  v2.5.1
+70 error path /usr/local/lib/node_modules/docker
+71 error code EACCES
+72 error errno -13
+73 error Error: EACCES, mkdir '/usr/local/lib/node_modules/docker'
+73 error     at Error (native)
+73 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/docker']
+73 error   errno: -13,
+73 error   code: 'EACCES',
+73 error   path: '/usr/local/lib/node_modules/docker',
+73 error   fstream_type: 'Directory',
+73 error   fstream_path: '/usr/local/lib/node_modules/docker',
+73 error   fstream_class: 'DirWriter',
+73 error   fstream_stack:
+73 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+73 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+73 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+74 error Please try running this command again as root/Administrator.
+75 verbose exit [ -13, true ]
+76 verbose unbuild lib/node_modules/docker
+77 verbose gentlyRm vacuuming /usr/local/lib/node_modules/docker
